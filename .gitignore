@@ -1,0 +1,29 @@
+# Python and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# Credentials and machine-local settings
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+
+# Data and generated experiment artifacts (root folders only)
+/dataset/
+/datasets/
+/data/
+/outputs/
+/logs/
+/results/
+/checkpoints/
+/runs/
+*.pt
+*.pth
+*.ckpt
+*.log
